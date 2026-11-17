@@ -1,7 +1,7 @@
-const siteBaseUrl = "https://huangguo.video";
+const siteBaseUrl = "https://huangguoai.fit";
 const userAgent = "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6 Mobile/15E148 Safari/604.1";
-const channel = "huangguo.video";
-const sourceAliases = ["huangguo-video", "huangguo.video"];
+const channel = "huangguoai.fit";
+const sourceAliases = ["huangguoai.fit", "huangguo.video"];
 
 const videoCardPattern = /<article\b[^>]*class=["'][^"']*\bvideo-card\b[^"']*["'][^>]*>[\s\S]*?<\/article>/gi;
 const cardMetaPattern = /<p\b[^>]*class=["'][^"']*\bfont-mono-meta\b[^"']*["'][^>]*>([\s\S]*?)<\/p>/i;
